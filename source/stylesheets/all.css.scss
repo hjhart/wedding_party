@@ -1,28 +1,13 @@
 //* require leaflet
 
-$orbit-bullet-nav-color: #FFFFFF;
-$orbit-bullet-nav-color-active: #fff800;
-$experimental: true;
 
 @import 'foundation';
 
 body {
-  background-color: #146cf5;
-  font-family: "futura-pt";
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
 }
 
-.retired {
-  text-align: center;
-  width: 900px;
-  margin: 0 auto;
-  background-color: adjust-lightness(red, -18);
-
-  h2 {
-    line-height: 1.2em;
-  }
-}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'futura-pt';
   color: white;
@@ -34,34 +19,6 @@ h1 {
   font-size: emCalc(60px);
 }
 
-#title-text {
-  margin-top: 34px;
-  display: block;
-}
-
-#present-text {
-  font-style: italic;
-  font-size: emCalc(18px);
-}
-
-#sliders-text {
-}
-
-#breakfast_sandwich {
-  margin-bottom: 60px;
-}
-
-#sole-purpose-text {
-
-  .yellow {
-    font-weight: 700;
-  }
-
-  line-height: 1.3em;
-  font-size: emCalc(36px);
-  color: white;
-}
-
 .text {
   font-size: emCalc(24px);
   color: white;
@@ -70,81 +27,6 @@ h1 {
     font-weight: 700;
   }
 }
-
-#perks {
-  margin-left: 850px;
-}
-
-.yellow {
-  color: #fff800;
-}
-
-.description {
-  margin-top: 60px;
-
-  #details {
-    padding: 30px;
-
-    li {
-      font-size: emCalc(24px);
-    }
-
-    @media only screen and (max-width: 767px) {
-      li {
-        font-size: emCalc(14px);
-      }
-    }
-  }
-
-  color: white;
-  text-align: left;
-}
-
-#iphone-template {
-  height: 539px;
-  width: 250px;
-  background: url(/images/white_iphone.png) no-repeat;
-  margin-bottom: 20px;
-}
-
-#iphone-shine {
-  position: absolute;
-  width: 250px;
-  height: 100%;
-  background: url(/images/iphone_sheen.png) no-repeat;
-  background-position: 101px 7px;
-  z-index: 2000;
-}
-
-#iphone-screens {
-  position: absolute;
-  margin: 77px 0 0 36px;
-  width: 208px;
-  height: 367px;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  z-index: 1999;
-}
-
-.testimonial {
-  color: white;
-
-  blockquote {
-    text-align: left;
-    color:white;
-    font-size: emCalc(20px);
-    .author {
-      font-style: italic;
-      font-size: emCalc(12px);
-      margin-top: 1em;
-      display: block;
-    }
-  }
-
-
-}
-
 
 #map {
   border-top: 5px solid #fff800;
@@ -159,15 +41,4 @@ h1 {
     height: 320px;
   }
 }
-
-#footer {
-  font-family: Arial;
-  text-align: center;
-  color: white;
-  font-size: emCalc(14px);
-  line-height: 1.5em;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  margin-bottom: 30px;
-}
-
 
