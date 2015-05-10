@@ -5230,55 +5230,81 @@ a.th {
   .f-dropdown.large {
     max-width: 800px; }
 
-/* line 6, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 9, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 body {
+  font-family: 'QuickSand';
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   background-color: #fdfbf9; }
 
-/* line 12, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'futura-pt'; }
-
 /* line 16, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-h1 {
-  font-family: "futura-pt-condensed";
-  font-weight: 800;
-  font-size: 3.75em; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'QuickSand';
+  color: #50514f; }
 
-/* line 22, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 21, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 #crest, #names {
   text-align: center;
   margin: 0 auto;
   display: block; }
 
-/* line 28, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 27, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 #names {
   width: 440px;
   padding-right: 24px;
   padding-top: 24px; }
 
-/* line 34, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 33, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 #crest {
   width: 200px;
   padding-top: 24px; }
 
-/* line 39, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 38, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 .text {
   font-size: 1.5em; }
-  /* line 42, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+  /* line 41, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
   .text strong {
     font-weight: 700; }
 
-/* line 47, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 46, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 #map {
-  border-top: 5px solid #fff800;
-  border-bottom: 5px solid #fff800;
-  margin: 20px 0 40px 0;
-  height: 500px;
+  border: 5px solid #f9d658;
+  height: 400px;
   width: 100%; }
 
+/* line 52, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+.vcard {
+  margin-top: 20px; }
+
 @media only screen and (max-width: 767px) {
-  /* line 56, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+  /* line 57, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
   #map {
     height: 320px; } }
+/* line 62, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+#actions {
+  text-align: center;
+  margin: 0 auto; }
+  /* line 66, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+  #actions li {
+    padding: 10px;
+    display: inline-block; }
+    /* line 69, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+    #actions li a {
+      color: #328ec6; }
+      /* line 71, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+      #actions li a:hover {
+        color: #1d5475; }
+
+/* line 78, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+h2 {
+  font-size: 2em;
+  text-align: center; }
+
+@font-face {
+  font-family: QuickSand;
+  src: url("/images/fonts/Quicksand-Light.otf") format("opentype"); }
+
+@font-face {
+  font-family: QuickSand;
+  font-weight: bold;
+  src: url("/images/fonts/Quicksand-Bold.otf") format("opentype"); }
