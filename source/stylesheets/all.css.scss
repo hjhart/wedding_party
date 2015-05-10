@@ -59,6 +59,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+a {
+	color: $links;
+	&:hover {
+		color: darken($links, 20);
+	};
+}
+
+
 #actions  {
 	text-align: center;
 	margin: 0 auto;
@@ -66,21 +74,16 @@ h1, h2, h3, h4, h5, h6 {
 	li {
 		padding: 10px;
 		display: inline-block;
-		a {
-			color: $links;
-			&:hover {
-				color: darken($links, 20);
-			};
-		}
 	}
 }
 
 h2 {
 	font-size: emCalc(32px);
-	text-align: center;
 }
 
-
+#information {
+	margin-top: 40px;
+}
 @font-face {
 font-family: QuickSand;
 src: url("/images/fonts/Quicksand-Light.otf") format("opentype");
