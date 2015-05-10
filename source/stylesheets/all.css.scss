@@ -1,22 +1,18 @@
 //* require leaflet
 
-
+$heart-yellow: #f9d658;
+$links: #328EC6;
 @import 'foundation';
 
 body {
+	font-family: 'QuickSand';
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   background-color: #fdfbf9;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'futura-pt';
-}
-
-h1 {
-  font-family: "futura-pt-condensed";
-  font-weight: 800;
-  font-size: emCalc(60px);
+	font-family: 'QuickSand';
 }
 
 #crest, #names {
@@ -45,10 +41,10 @@ h1 {
 }
 
 #map {
-  border-top: 5px solid #fff800;
-  border-bottom: 5px solid #fff800;
+  border-top: 5px solid $heart-yellow;
+  border-bottom: 5px solid $heart-yellow;
   margin: 20px 0 40px 0;
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
@@ -58,3 +54,33 @@ h1 {
   }
 }
 
+#actions  {
+	text-align: center;
+	margin: 0 auto;
+	
+	li {
+		padding: 10px;
+		display: inline-block;
+		a {
+			color: $links;
+			&:hover {
+				color: darken($links, 20);
+			};
+		}
+	}
+}
+
+h2 {
+	font-size: emCalc(32px);
+}
+
+@font-face {
+font-family: QuickSand;
+src: url("/images/fonts/Quicksand-Light.otf") format("opentype");
+}
+
+@font-face {
+font-family: QuickSand;
+font-weight: bold;
+src: url("/images/fonts/Quicksand-Bold.otf") format("opentype");
+}
