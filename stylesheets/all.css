@@ -3854,15 +3854,15 @@ form.custom {
     display: block;
     width: 18px;
     height: 18px;
-    background: white;
+    background: #999999;
     float: left;
     margin-right: 6px;
-    border: solid 2px #fff800;
+    border: solid 2px #222222;
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     /* line 260, /Users/hjhart/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/zurb-foundation-4.2.1/scss/foundation/components/_orbit.scss */
     .orbit-bullets li.active {
-      background: #fff800; }
+      background: #222222; }
     /* line 264, /Users/hjhart/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/zurb-foundation-4.2.1/scss/foundation/components/_orbit.scss */
     .orbit-bullets li:last-child {
       margin-right: 0; }
@@ -5230,132 +5230,47 @@ a.th {
   .f-dropdown.large {
     max-width: 800px; }
 
-/* line 9, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 6, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 body {
-  background-color: #146cf5;
-  font-family: "futura-pt";
   font-smooth: always;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background-color: #fdfbf9; }
+
+/* line 12, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'futura-pt'; }
 
 /* line 16, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-.retired {
-  text-align: center;
-  width: 900px;
-  margin: 0 auto;
-  background-color: #a30000; }
-  /* line 22, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-  .retired h2 {
-    line-height: 1.2em; }
-
-/* line 26, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'futura-pt';
-  color: white; }
-
-/* line 31, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 h1 {
   font-family: "futura-pt-condensed";
   font-weight: 800;
   font-size: 3.75em; }
 
-/* line 37, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#title-text {
-  margin-top: 34px;
+/* line 22, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+#crest, #names {
+  text-align: center;
+  margin: 0 auto;
   display: block; }
 
-/* line 42, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#present-text {
-  font-style: italic;
-  font-size: 1.125em; }
+/* line 28, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+#names {
+  width: 440px;
+  padding-right: 24px;
+  padding-top: 24px; }
 
-/* line 50, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#breakfast_sandwich {
-  margin-bottom: 60px; }
+/* line 34, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+#crest {
+  width: 200px;
+  padding-top: 24px; }
 
-/* line 54, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#sole-purpose-text {
-  line-height: 1.3em;
-  font-size: 2.25em;
-  color: white; }
-  /* line 56, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-  #sole-purpose-text .yellow {
-    font-weight: 700; }
-
-/* line 65, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 39, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 .text {
-  font-size: 1.5em;
-  color: white; }
-  /* line 69, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+  font-size: 1.5em; }
+  /* line 42, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
   .text strong {
     font-weight: 700; }
 
-/* line 74, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#perks {
-  margin-left: 850px; }
-
-/* line 78, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-.yellow {
-  color: #fff800; }
-
-/* line 82, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-.description {
-  margin-top: 60px;
-  color: white;
-  text-align: left; }
-  /* line 85, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-  .description #details {
-    padding: 30px; }
-    /* line 88, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-    .description #details li {
-      font-size: 1.5em; }
-    @media only screen and (max-width: 767px) {
-      /* line 93, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-      .description #details li {
-        font-size: 0.875em; } }
-
-/* line 103, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#iphone-template {
-  height: 539px;
-  width: 250px;
-  background: url(/images/white_iphone.png) no-repeat;
-  margin-bottom: 20px; }
-
-/* line 110, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#iphone-shine {
-  position: absolute;
-  width: 250px;
-  height: 100%;
-  background: url(/images/iphone_sheen.png) no-repeat;
-  background-position: 101px 7px;
-  z-index: 2000; }
-
-/* line 119, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#iphone-screens {
-  position: absolute;
-  margin: 77px 0 0 36px;
-  width: 208px;
-  height: 367px;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  z-index: 1999; }
-
-/* line 130, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-.testimonial {
-  color: white; }
-  /* line 133, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-  .testimonial blockquote {
-    text-align: left;
-    color: white;
-    font-size: 1.25em; }
-    /* line 137, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-    .testimonial blockquote .author {
-      font-style: italic;
-      font-size: 0.75em;
-      margin-top: 1em;
-      display: block; }
-
-/* line 149, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+/* line 47, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
 #map {
   border-top: 5px solid #fff800;
   border-bottom: 5px solid #fff800;
@@ -5364,15 +5279,6 @@ h1 {
   width: 100%; }
 
 @media only screen and (max-width: 767px) {
-  /* line 158, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
+  /* line 56, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
   #map {
     height: 320px; } }
-/* line 163, /Users/hjhart/workspace/wedding_party/source/stylesheets/all.css.scss */
-#footer {
-  font-family: Arial;
-  text-align: center;
-  color: white;
-  font-size: 0.875em;
-  line-height: 1.5em;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  margin-bottom: 30px; }
